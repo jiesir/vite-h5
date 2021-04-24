@@ -1,0 +1,40 @@
+{
+  "name": "vite-h5-master",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "jiesir",
+  "description": "移动端 Vue3 工程",
+  "keywords": [
+    "vue3",
+    "vite"
+  ],
+  "scripts": {
+    "dev": "cross-env VITE_ENV=dev vite",
+    "checks": "vue-tsc --noEmit",
+    "build": "rimraf dist && cross-env VITE_ENV=prod vite build",
+    "clean:cache": "rimraf node_modules/.cache/ && rimraf node_modules/.vite",
+    "clean:lib": "npx rimraf node_modules"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "moment": "^2.29.1",
+    "nprogress": "^0.2.0",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.6",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^9.1.0",
+    "less": "^4.1.1",
+    "postcss-px-to-viewport": "^1.1.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.3",
+    "vconsole": "^3.4.0",
+    "vite": "^2.1.5",
+    "vue-tsc": "^0.0.15"
+  }
+}
