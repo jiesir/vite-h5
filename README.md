@@ -37,6 +37,7 @@ yarn clean:lib # 删除node_modules，兼容window系统
 
 ## 项目结构
 
+```
 ├── build (编译模块)
 ├── config (配置文件)
 ├── docs (项目文档)
@@ -86,7 +87,7 @@ yarn clean:lib # 删除node_modules，兼容window系统
 ├── tsconfig.ts
 └── vite.config.ts
 
-
+```
 
 
 
